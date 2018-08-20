@@ -238,7 +238,7 @@ class NLPTaskDataFetcher:
 
         sentence: Sentence = Sentence()
         for line in lines:
-
+            line = line.strip()
             if line == '':
                 if len(sentence) > 0:
                     sentences.append(sentence)

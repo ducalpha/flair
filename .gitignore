@@ -106,3 +106,7 @@ venv.bak/
 .mypy_cache/
 
 resources/taggers/
+
+*.swp
+dataset/
+error_log
